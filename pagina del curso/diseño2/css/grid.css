@@ -1,0 +1,11 @@
+.galeria-productos{
+    display: grid;
+    grid-template-columns: 300px, 3;
+    grid-template-rows: 300px;
+    margin-top: 50px;
+}
+.producto{
+
+    background-color: aqua;
+
+}
