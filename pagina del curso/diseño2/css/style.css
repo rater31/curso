@@ -9,6 +9,9 @@
     font-size: 30px;
     font-weight: 600;
 }
+.nav-celu{
+    display: none;
+}
 .menu{
     font-family: 'Poppins', sans-serif;
     display: flex;
@@ -22,7 +25,7 @@
 .opciones{
     display: flex;
     justify-content: flex-end;
-    gap: 50px;
+    gap: 30px;
     width: 70vw;
     font-size: 20px;
     list-style: none;
@@ -54,4 +57,17 @@
     100%{
         text-decoration: underline;
     }
+}
+@media screen and (max-width: 870px) {
+    .opciones{
+        display:none;
+    }
+    .nav-celu{
+        display:block;
+    }
+    .menu{
+        align-content: space-between;
+    }
+
+ 
 }
